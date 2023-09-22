@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/gaochangliang/code/cpp/cpp11",
+      "program": "/Users/gaochangliang/code/cpp/cpp11/outpram.out",
+      "MIMode": "lldb"
+    }
+  ]
+}
