@@ -2,7 +2,7 @@
 #include<assert.h>
 #include<cstring>
 using namespace  std;
-
+/*
 template<typename T, typename U>
 int bit_copy(T& a, U&b)
 {
@@ -17,3 +17,5 @@ int main()
     double b;
     bit_copy(a, b);
 }
+
+*/
