@@ -2,7 +2,7 @@
 C++11标准中让类的析构函数默认也是noexcept(true)的。
 如果程序员显式地为析构函数指定了noexcept，或者类的基类或成员有noexcept(false)的析构函数，析构函数就不会再保持默认值。
 */
-
+/*
 #include<iostream>
 using namespace std;
 
@@ -24,7 +24,9 @@ struct C
 int funA() {A a;}
 int funB() {B b;}
 int funC() {C c;}
-/*
+
+
+
 
 int main()
 {
