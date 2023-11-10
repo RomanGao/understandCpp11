@@ -2,9 +2,10 @@
 
 …or create a new repository on the command line
 echo "# understandCpp11" >> README.md
-git init
+git initgit config --global https.proxy http://127.0.0.1:1080
 git add .
 git commit -m "first commit"
+git config --global http.proxy http://127.0.0.1:1080
 git branch -M main
 git remote add origin https://github.com/RomanGao/understandCpp11.git
 git push -u origin main
