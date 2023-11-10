@@ -5,7 +5,6 @@ echo "# understandCpp11" >> README.md
 git initgit config --global https.proxy http://127.0.0.1:1080
 git add .
 git commit -m "first commit"
-git config --global http.proxy http://127.0.0.1:1080
 git branch -M main
 git remote add origin https://github.com/RomanGao/understandCpp11.git
 git push -u origin main
@@ -18,3 +17,12 @@ git push -u origin main
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
+ssh失效（Recv failure, 可能换网了）
+cd ~
+cd .ssh
+ssh-keygen -t rsa -b 4096 -C "gaochl2014@126.com"
+cat id_rsa.pub
+
+//链接不上git（Couldn't connect to server）
+git config --global http.proxy http://127.0.0.1:7890 
+git config --global https.proxy http://127.0.0.1:7890
