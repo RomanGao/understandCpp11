@@ -26,3 +26,11 @@ cat id_rsa.pub
 //链接不上git（Couldn't connect to server）
 git config --global http.proxy http://127.0.0.1:7890 
 git config --global https.proxy http://127.0.0.1:7890
+
+
+How to Fix error: failed to push some refs to Error in Git Using git pull --rebase
+The git pull --rebase  command is helpful in situations where your local branch is a commit behind the remote branch.
+To fix the error, go on and run following commands:
+    git pull --rebase origin main
+    git push -u origin main
+
