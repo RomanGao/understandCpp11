@@ -3,12 +3,11 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
+      "type": "lldb",
       "request": "launch",
       "args": [],
       "cwd": "/Users/gaochangliang/code/cpp/cpp11",
-      "program": "/Users/gaochangliang/code/cpp/cpp11/outpram.out",
-      "MIMode": "lldb"
+      "program": "/Users/gaochangliang/code/cpp/cpp11/build/Debug/outDebug"
     }
   ]
 }
