@@ -13,6 +13,7 @@ public:
 int *d;
 };
 
+/*
 int main()
 {
     HasPtrMem a;
@@ -21,6 +22,8 @@ int main()
     cout<<*b.d<<endl;
     return 0;
 }
+*/
+
 
 /*
 我们为HasPtrMem添加了一个拷贝构造函数。拷贝构造函数从堆中分配新内存，将该分配来的内存的指针交还给d，又使用*(h.d)对*d进行了初始化。
