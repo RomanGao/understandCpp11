@@ -23,9 +23,14 @@ cd .ssh
 ssh-keygen -t rsa -b 4096 -C "gaochl2014@126.com"
 cat id_rsa.pub
 
-//链接不上git（Couldn't connect to server）
+//链接不上git（Couldn't connect to server）,使用代理链接
 git config --global http.proxy http://127.0.0.1:7890 
 git config --global https.proxy http://127.0.0.1:7890
+ 
+ Failed to connect to 127.0.0.1 port 7890 after 59 ms: Couldn't connect to server
+不实用代理链接(https://github.com/desktop/desktop/issues/11981)
+git config --global --unset http.proxy
+git config --global --unset https.proxy
 
 
 How to Fix error: failed to push some refs to Error in Git Using git pull --rebase
@@ -33,4 +38,7 @@ The git pull --rebase  command is helpful in situations where your local branch 
 To fix the error, go on and run following commands:
     git pull --rebase origin main
     git push -u origin main
+
+ Recv failure: Connection reset by peer:
+
 
