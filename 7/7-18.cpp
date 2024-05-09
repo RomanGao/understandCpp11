@@ -6,3 +6,4 @@ int main()
     auto fun1=[&](int c){b=a+c;};//省略了返回类型， 无返回值 
     auto fun2=[=,&b](int c)->int{return b+=a+c;};//各部分都很完整的lambda函数 
 }
+
