@@ -121,7 +121,8 @@
     "chrono": "cpp",
     "compare": "cpp",
     "concepts": "cpp",
-    "algorithm": "cpp"
+    "algorithm": "cpp",
+    "functional": "cpp"
   },
   "C_Cpp_Runner.msvcSecureNoWarnings": false
 }
